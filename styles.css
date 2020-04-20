@@ -1,0 +1,103 @@
+body {
+    background-color: lightgray;
+}
+
+.big-blue-header {
+ height: 300px;
+ width: 850px;
+ background-color: rgb(48, 61, 114);
+ margin: 0 auto;
+}
+.navbar {
+width: 850px;
+margin: 0 auto;
+height: 75px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+border: 1px solid slategray;
+border-radius: 1.75%;
+}
+
+.buttons {
+    position: relative;
+    border: none;
+    color: black;
+    padding: 10px;
+    font-size: 10px;
+    float: right;
+    left: -250px;
+    top: -50px;
+}
+h2 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    left: 250px;
+}
+
+h5 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    left: 250px;
+
+}
+ li {
+     list-style-type: none;
+     float: right;
+     border-right: .5px solid gray;
+     padding: 8px;
+     margin: 0 auto;
+ }
+.box-1 {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+.box-2 {
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+ .timeline {
+  font-weight: bold;
+  text-decoration: underline;
+ }
+.profile-photo {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 1.75%;
+    background-color: rgb(48, 61, 114);
+    position: relative;
+    top: 125px;
+    left: 20px;
+}
+.columns {
+    width: 850px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.column-1 {
+    float: left;
+    height: 200px;
+    width: 328px;
+    background-color: white;
+    border: 1px solid slategray;
+}
+.column-2 {
+    float: right;
+    height: 200px;
+    width: 512px;
+    background-color: white;
+    border: 1px solid slategray;
+}
+/* 
+- big blue box
+- white nav bar
+- profile photo, moved to the left, and
+positioned over the white bar and blue box
